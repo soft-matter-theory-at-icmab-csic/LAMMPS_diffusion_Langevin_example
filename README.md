@@ -6,7 +6,7 @@ The objective here is to illustrate the relation between the parameters of the s
 This repository includes the following material:
 - the initial condition (random dispersion of spheres) for all the simulations.
 - An example of LAMMPS input file and gnuplot plot for reproducing the simulations.
-- different_damp.zip: Raw data for several examples with different values of the friction in the Langevin equation ($$\mathrm{damp}$$) from 0.01 to 1.5, in order to illustrate the relation between $$\mathrm{damp}$$ and $$D$$ (in all cases $$T^* =1$$).
+- different_damp.zip: Raw data for several examples with different values of the friction in the Langevin equation ($$\mathrm{damp}$$) from 0.01 to 1.5, in order to illustrate the relation between $$\mathrm{damp}$$ and $$D$$ (in all cases $$T^* =1$$ and $$m^* =1$$).
 
 As explained in the [manual](https://docs.lammps.org/fix_nve_dotc_langevin.html) in LAMMPS, we can perform **Langevin dynamics** simulations using the  *fix langevin* command, which adds a friction $$F_f$$ force and a random $$F_r$$ force over each particle mimicking the effect of the fluid (in addition to any other forces $$F_c$$ acting to the particle due to interactions with other particles or with external fields):
 ```math
