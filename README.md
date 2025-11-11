@@ -29,14 +29,16 @@ The diffusion coefficient is related to the mean squared displacement of the par
 This relation is employed in the simulations to calculate *D* by a linear fit of the **MSD** computed along the trajectory.
 The simulation result is then compared with the theoretical value, as illustrated here for a simulation with $$\mathrm{damp}=1$$ and $$T^* =1 $$ (which gives $$D^*=1$$).
 
-![damp1MSDresult](fitD.png)
-
+<img src="https://github.com/soft-matter-theory-at-icmab-csic/LAMMPS_diffusion_Langevin_example/blob/main/fitD.png" width="400">
 
 This repository includes the following material:
 - different_damp.zip: Raw data for several examples with different values of  $$\mathrm{damp}$$ (from 0.01 to 1.5), in order to illustrate the relation between $$\mathrm{damp}$$ and $$D$$ (in all cases $$T^* =1$$).
 - the initial condition (random dispersion of spheres) for all the simulaitons.
 - An example of LAMMPS input file and gnuplot plot for reproducing the simulations.
 
-The simulations employed in the example are based on this simple [LAMMPS tutorial](https://www2.ph.ed.ac.uk/~cbrackle/lammps_tutorial.html)
+A summary of the results is shown below:
 
-<img src="https://github.com/soft-matter-theory-at-icmab-csic/LAMMPS_diffusion_Langevin_example/blob/main/comparison.png" width="48">
+<img src="https://github.com/soft-matter-theory-at-icmab-csic/LAMMPS_diffusion_Langevin_example/blob/main/comparison.png" width="500">
+
+The simulations employed here are based on the second case of this simple [LAMMPS tutorial](https://www2.ph.ed.ac.uk/~cbrackle/lammps_tutorial.html)
+
