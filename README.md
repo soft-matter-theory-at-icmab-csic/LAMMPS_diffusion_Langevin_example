@@ -20,7 +20,7 @@ D =  \frac{k_B T}{\gamma} =  \frac{k_B T}{m}\mathrm{damp}
 ```
 Note that in the LJ units employed in the LAMMPS simulation, we have:
 ```math
-D =  \frac{T*}{m*}\mathrm{damp}
+D =  \frac{T^* }{m^* }\mathrm{damp}
 ```
 The diffusion coefficient is related to the mean squared displacement of the particles by the Einstein relation: 
 ```math
