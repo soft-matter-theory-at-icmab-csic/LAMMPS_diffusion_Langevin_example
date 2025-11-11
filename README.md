@@ -18,16 +18,20 @@ The diffusion coefficient is given by the Stokes-Einstein relation:
 ```math
 D =  \frac{k_B T}{\gamma} =  \frac{k_B T}{m}\mathrm{damp}
 ```
+Note that in the LJ units employed in the LAMMPS simulation, we have:
+```math
+D =  \frac{T*}{m*}\mathrm{damp}
+```
 The diffusion coefficient is related to the mean squared displacement of the particles by the Einstein relation: 
 ```math
 \mathrm{MSD}(t) = 6 D t
 ```
 This relation is employed in the simulations to calculate *D* by a linear fit of the **MSD** computed along the trajectory.
-The simulation result is then compared with the theoretical value.
-Note that in the LJ units employed in the LAMMPS simulation, we have:
-```math
-D =  \frac{T*}{m*}\mathrm{damp}
-```
+The simulation result is then compared with the theoretical value, as illustrated here for a simulation with  $$\mathrm{damp}=1$$ and $$T*=1$$ (which gives $$D*=1$$).
+
+This repository includes the following material:
+For example, for 
+
 
 The simulations provided here are the following:
 - An example of a simulation with $$\mathrm{damp}=1$$ and $$T*=1$$, which gives $$D*=1$$.
