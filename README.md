@@ -38,3 +38,5 @@ This repository includes the following material:
 - An example of LAMMPS input file and gnuplot plot for reproducing the simulations.
 
 The simulations employed in the example are based on this simple [LAMMPS tutorial](https://www2.ph.ed.ac.uk/~cbrackle/lammps_tutorial.html)
+
+<img src="https://github.com/soft-matter-theory-at-icmab-csic/LAMMPS_diffusion_Langevin_example/blob/main/comparison.png" width="48">
