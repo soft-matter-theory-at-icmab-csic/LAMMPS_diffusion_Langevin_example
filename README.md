@@ -13,5 +13,6 @@ The only physical quantity describing the effect of the implicit solvent is the 
 ```math
 F_f = - \gamma v
 ```
+so $\mathrm{damp}$=m/\gamma$$
 
 The simulations employed in the example are based on this simple [LAMMPS tutorial](https://www2.ph.ed.ac.uk/~cbrackle/lammps_tutorial.html)
