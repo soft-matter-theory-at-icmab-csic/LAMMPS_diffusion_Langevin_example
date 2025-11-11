@@ -27,7 +27,8 @@ The diffusion coefficient is related to the mean squared displacement of the par
 \mathrm{MSD}(t) = 6 D t
 ```
 This relation is employed in the simulations to calculate *D* by a linear fit of the **MSD** computed along the trajectory.
-The simulation result is then compared with the theoretical value, as illustrated here for a simulation with  $$\mathrm{damp}=1$$ and $$T*=1$$ (which gives $$D*=1$$).
+The simulation result is then compared with the theoretical value, as illustrated here for a simulation with  $$\mathrm{damp}=1$$ and $$T^*=1$$ (which gives $$D^*=1$$).
+![damp1MSDresult](fitD.png)
 
 This repository includes the following material:
 For example, for 
