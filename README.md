@@ -14,7 +14,7 @@ As explained in the [manual](https://docs.lammps.org/fix_nve_dotc_langevin.html)
 F_f = & - \frac{m}{\mathrm{damp}} v \\
 F_r \propto & \sqrt{\frac{k_B T m}{dt~\mathrm{damp}}}\end{split}
 ```
-The only physical quantity describing the effect of the implicit solvent is the *damp* coefficient appearing above (which has units of time) and models the friction between a particle and the implicit solvent. Usualy, in the physics literature the firction force is written in terms of a friction coefficient $$\gamma$$ as:
+The only physical quantity describing the effect of the implicit solvent is the *damp* coefficient appearing above (which has units of time) and models the friction between a particle and the implicit solvent. Usualy, in the physics literature the friction force is written in terms of a friction coefficient $$\gamma$$ as:
 ```math
 F_f = - \gamma v
 ```
