@@ -37,7 +37,7 @@ The simulation result is then compared with the theoretical value, as illustrate
 <img src="https://github.com/soft-matter-theory-at-icmab-csic/LAMMPS_diffusion_Langevin_example/blob/main/fitD.png" width="400">
 
 
-A summary of the results for different $$\mathrm{damp}$ is shown below:
+A summary of the results for different $$\mathrm{damp}$$ is shown below:
 
 <img src="https://github.com/soft-matter-theory-at-icmab-csic/LAMMPS_diffusion_Langevin_example/blob/main/comparison.png" width="500">
 
